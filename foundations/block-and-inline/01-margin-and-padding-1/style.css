@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 30px;
+  margin: 10px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 50px;
 }
 
 .three {
@@ -23,6 +23,8 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 30px;
+  /* I first used "margin-left: 330px;", which is ok, but it doesn't align perfectly to the left.
+  Using auto makes the left margin take up all available space and aligns the item to the right. */
+  margin-left: auto
 }
